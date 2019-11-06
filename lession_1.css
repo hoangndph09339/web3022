@@ -1,0 +1,220 @@
+@font-face{
+    font-family: Camellia;
+    src: url('UTM Camellia.ttf');
+}
+body{
+    max-width: 960px;
+    max-height: 1000px;
+    clear: both;
+    margin: auto;
+}
+
+header{
+    max-width: 960px;
+    height: 160px;
+    clear: both;
+    margin: auto;
+    background-color: #350a21;
+}
+
+.head{
+    max-width: 256px;
+    clear: both;
+    margin: auto;
+}
+
+.triangle{
+    background-color: #350a21;
+    border-bottom: 32px solid #b85797;
+    border-left: 128px solid transparent;
+    border-right: 128px solid transparent;
+    border-top: 32px solid transparent;
+    max-width: 0;
+    height: 0;
+    margin: auto;
+}
+
+.head p{
+    margin: auto;
+    font-family: Camellia;
+    font-size: 30px;
+    color: #e0c6dd;
+    margin-top: 10px;
+    max-width: 256px;
+    letter-spacing: 1px;
+    text-align-last: justify;
+}
+
+nav{
+    height: 36px;
+    max-width: 880px;
+    padding-left: 30px;
+    padding-right: 50px;
+    background-color: #b85797;
+}
+
+nav ul{
+    height: 36px;
+    list-style-type: none;
+}
+
+nav ul li{
+    cursor: pointer;
+    display: inline-block;
+    height: 36px;
+    margin-left: 30px;
+    line-height: 36px;
+    padding: 0 10px;
+    color: #e3cde2;
+}
+
+nav ul li:hover{
+    height: 36px;
+    background-color: #350a21;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    grid-gap: 10px;
+    margin: auto;
+    margin-top: 10px;
+    max-width: 960px;
+    height: 760px;
+}
+
+.nh{
+    height: 60px;
+    text-align: center;
+    border-bottom: solid #d49ac1;
+    line-height: 60px;
+}
+
+.nh h1{
+    font-family: Tahoma;
+    font-size: 24px;
+    color: #b85797;
+    font-weight: initial;
+}
+
+.nh h1:hover{
+    color: red;
+    font-weight: bolder;
+}
+
+.produc{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 30px;
+}
+
+.orders{
+    border: solid 1px #d49ac1;
+    height: 336px;
+    padding: 10px 10px 20px 10px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.orders img{
+    margin: auto;
+    max-width: 100px;
+    height: 100px;
+}
+
+.orders h4{
+    font-family: Tahoma;
+    font-size: 15px;
+    font-weight: initial;
+    cursor: pointer;
+    src: url(#);
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.orders h4:hover{
+    color: red;
+    font-weight: lighter;
+}
+
+.oldprice{
+    color: #b85797;
+    font-family: Tahoma;
+    font-size: 15px;
+    margin-top: 32px;
+}
+
+.newprice{
+    text-decoration: line-through;
+    margin-top: 32px;
+    margin-bottom: 40px;
+}
+
+.orders #order{
+    cursor: pointer;
+    max-width: 165px;
+    height: 40px;
+    line-height: 40px;
+    color: #fae8f4;
+    background-color: #350a21;
+    font-family: Tahoma;
+    font-size: 18px;
+    border: none;
+}
+
+aside{
+    padding: 0 20px;
+    background-color: #fae8f4;
+}
+
+aside h2{
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.regist{
+    max-width: 340px;
+}
+
+#txtRegist{
+    height: 30px;
+    line-height: 30px;
+    padding-left: 5px;
+    display: block;
+    padding-right: 135px;
+}
+
+.btnRegist{
+    margin: auto;
+    clear: both;
+    margin-top: 15px;
+    text-align: center;
+}
+
+#btnRegist{
+    max-width: 60px;
+    height: 30px;
+    line-height: 30px;
+    font-family: Tahoma;
+    font-size: 11px;
+    color: #e3cde2;
+    background-color: #293030;
+    border: none;
+    cursor: pointer;
+}
+
+footer{
+    height: 50px;
+    line-height: 50px;
+    max-width: 960px;
+    clear: both;
+    margin: auto;
+    text-align: center;
+    text-transform: uppercase;
+    color: #e5c6da;
+    background-color: #350a21;
+    font-weight: initial;
+}
